@@ -1,0 +1,271 @@
+@media only screen and (max-width: 600px) {
+    .part-1{ 
+        height: 700px;
+        background-size: 100% 100%;
+        background-position: 0px 0px; 
+    }
+    .logo,.part-1a{
+        display: none;
+    }
+    .img{
+        height: 550px ;
+        width:550px;
+        position:absolute;
+        top: 120px;
+        right: 20px;
+      }
+
+      .box{
+        position: absolute;
+        top: 190px;
+        left: 20px;
+        padding: 30px;
+        background: rgba(255, 255, 255, 0.5);
+        border-left: 8px solid #f94d1c;
+    }
+    
+
+    /* part-2 : start */
+
+    .part-2{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 2fr 3fr 2fr;
+        padding: 0px 50px;
+        row-gap: 20px;
+        transform: translateY(0px);
+    }
+    .card-2{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    /* part-3 : start */
+
+    .part-3{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto;
+        padding: 0px 0px;
+    }
+    .part-3a{
+        padding-left: 20px;
+    }
+    .part-3b{
+        padding: 30px 20px;
+    }
+    .p3-1{
+        font-size: 40px;
+      }
+      .p3-1 span::after{
+        content: "";
+        height: 3px;
+        width: 30px;
+    }
+    .p3-2{
+        font-size: 18px;
+     }
+     .line-up{
+        width: 435px;
+    }
+    .line-in{
+        width: 370px;
+    }
+    .line-in-1{
+        width: 250px;
+    }
+     
+    /* part-4 :start */ 
+
+    .part-4-box{
+        display: grid;
+        grid-template-rows: auto auto;
+        grid-template-columns: 1fr;
+        padding: 0px 30px;
+    }
+    .left-1b{
+        padding: 5px 10px;
+    }
+    .LEFT-1{
+        transform: translateX(0px);
+    }
+    .right{
+        padding: 40px;
+        margin-top: 30px;
+    }
+    .right-box{
+        transform: translateY(-60px);
+    }
+
+    /* part-5 : start */
+
+    .part-5{
+        padding: 40px;
+    }
+    .part-5-main{
+        display: grid;
+         grid-template-columns: 1fr;
+         grid-template-rows: auto ;
+    }
+    .part-5-1b{
+        border: none;
+    }
+    .part-5-1b::before{
+        position: absolute;
+        top: -3px;
+        right: 130px;
+    }
+
+    /* part-6 : start */
+    
+    .part-6{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto;
+        padding: 15px 50px;
+    }
+    .part-6b{
+        padding-left: 0px;
+    }
+
+    /* part-7 : start */
+
+    .part-7{
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 50px 63px;
+        row-gap: 30px;
+    }
+
+    /* part-8 : start */
+
+    /* part-9 : start */
+
+    .part-9{
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 0px 25px;
+    }
+    .part-9a p::after{
+        position: absolute;
+        top: 0px;
+        right: 100px;
+    }
+    .part-9b{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+    .part-9b .a{
+        border: none;
+    }
+    #f span{
+        font-size: 18px;
+    }
+    #f button{
+        height: 25px;
+        width: 90px;
+        transition: 0.5s;
+        margin-top: 4px;
+    }
+
+    /* part-10 : start */
+
+    .part-10{
+        padding: 30px 38px;
+    }
+
+    .part-10-main{
+        display: grid;
+        grid-template-columns:1fr;
+        grid-template-rows: auto auto auto;
+        padding: 20px 25px;
+    }
+
+    /* part-11 : start */
+
+
+    /* part-12 : start */
+
+    .part-12{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto auto;
+        padding: 40px 40px;
+        row-gap: 50px;
+    }
+ 
+    /* part-13 : start */
+
+    .part-13{
+        background: url(/IMAGES/bg-team1.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        text-align: center;
+        padding: 80px 0px;
+    }
+
+    /* part-14 : start */
+
+    /* part-15 : start */
+
+    .part-15{
+        padding: 30px 10px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto;
+        row-gap: 30px;
+    }
+
+    /* part-16 : start */
+
+    /* part-17 : start */
+
+    .bhag1
+  {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 20px 30px;
+    background:url(/IMAGES/p-bg-footer.png);
+    background-size: cover,cover;
+    color: white;
+  }
+
+  .content{
+    background: white;
+    margin-bottom: 0px;
+}
+
+.part-17{
+    border: 1px solid red;
+    position: static;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.header{
+    display: block;
+    background: white;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 3;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0px 0px 20px grey;
+}
+.header .IMAGE_2{
+    /* height: 100px; */
+     padding: 10px 270px 10px 10px ;
+}
+.header .ICON{
+    font-size: 40px;
+    position: absolute;
+    top: 16px;
+    right: 30px;
+}
+     
+  }
